@@ -157,7 +157,7 @@ let subheadselector2='#thememaincontent > div:nth-child(7) > div > div > div:nth
   let headingselector='#thememaincontent > div:nth-child(3) > div > div > div > div.zpelement.zpelem-heading > h2 > div > h1 > span'
   cy.get(headingselector).should('have.text','REGISTERED OFFICE')
  })
- it('To verify copyright notice is visible at bottom right of the page',()=>{
+ it('To verify the the copyright notice is visible at bottom right of the page',()=>{
   let crselector='#thememaincontent > div:nth-child(4) > div > div > div > div > div > div > div:nth-child(1) > p > span'
   cy.get(crselector).should('contain.text','2025')
  })
